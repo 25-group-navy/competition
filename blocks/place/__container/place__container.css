@@ -1,0 +1,21 @@
+.place__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgb(242, 242, 242);
+    padding: 68px 178px 86px 68px;
+}
+
+@media (max-width: 1279px) {
+    .place__container {
+        /* На 20% меньше */
+        padding: 54px 142px 69px 54px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .place__container {
+        /* На 80% меньше, кроме bottom */
+        padding: 14px 37px 45px 14px;
+    }
+}

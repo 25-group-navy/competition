@@ -1,0 +1,21 @@
+.place {
+    /* height: calc(100vw*0.4176); */
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 50% 50%);
+    grid-auto-flow: dense;
+    /* grid-template-rows: repeat(3, calc(100vw*0.4176)); */
+}
+
+@media (min-width: 768px) {
+    .place:nth-of-type(2n) .place__image {
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+
+@media (max-width: 767px) {
+    .place {
+        grid-template-columns: 100%;
+    }
+}

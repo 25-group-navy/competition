@@ -1,0 +1,14 @@
+.place__image{
+    width: 100%;
+    /* 0.4176 - это коэфициент отношения высоты картинки к ширине экрана */
+    height: calc(100vw*0.4176);
+    object-fit: cover;
+    object-position: center;
+}
+
+
+@media (max-width: 767px){
+    .place__image{
+        height: calc(100vw*0.4176*2);
+    }
+}

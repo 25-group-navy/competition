@@ -1,0 +1,5 @@
+.footer{
+    background-color: #fecda7;
+    min-height: calc(100vw*0.4843);
+    display: flex;
+}

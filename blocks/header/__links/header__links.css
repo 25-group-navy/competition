@@ -6,3 +6,16 @@
   padding: 0;
   margin: 0;
 }
+
+@media (max-width: 800px){
+  .header__links{
+    column-gap: 30px;
+  }
+}
+
+@media (max-width: 650px){
+  .header__links{
+    grid-template-columns: repeat(1, min-content);
+    row-gap: 20px;
+  }
+}

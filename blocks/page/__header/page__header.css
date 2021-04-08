@@ -1,0 +1,23 @@
+.page__header{
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 60px 85px 0;
+}
+
+@media (max-width: 800px){
+  .page__header{
+    padding: 60px 55px 0;
+  }
+}
+
+@media (max-width: 650px){
+  .page__header{
+    padding: 60px 35px 0;
+  }
+}
+
+@media (max-width: 350px){
+  .page__header{
+    padding: 60px 20px 0;
+  }
+}

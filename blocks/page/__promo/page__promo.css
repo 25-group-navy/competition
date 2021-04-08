@@ -1,0 +1,23 @@
+.page__promo{
+  max-width: 1350px;
+  margin: 0 auto;
+  padding: 100px 85px 154px;
+}
+
+@media (max-width: 800px){
+  .page__promo{
+    padding: 100px 55px 154px;
+  }
+}
+
+@media (max-width: 650px){
+  .page__promo{
+    padding: 100px 35px 154px;
+  }
+}
+
+@media (max-width: 350px){
+  .page__promo{
+    padding: 0 20px 0;
+  }
+}

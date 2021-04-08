@@ -1,7 +1,13 @@
 .header__menu{
-  max-width: 1350px;
-  margin: 60px auto 0;
   display: grid;
   grid-template-columns: 1fr min-content;
   align-content: space-between;
+  justify-content: start;
+}
+
+@media (max-width: 650px){
+  .header__menu{
+    grid-template-columns: min-content;
+    row-gap: 20px;
+  }
 }

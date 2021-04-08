@@ -6,3 +6,27 @@
   margin: 0 0 35px;
   letter-spacing: 0.05em;
 }
+
+@media (max-width: 1200px){
+  .promo__title{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 800px){
+  {
+    
+  }
+}
+
+@media (max-width: 650px){
+  {
+    
+  }
+}
+
+@media (max-width: 350px){
+  {
+    
+  }
+}

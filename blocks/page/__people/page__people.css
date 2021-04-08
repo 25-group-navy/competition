@@ -1,0 +1,23 @@
+.page__people{
+  max-width: 1350px;
+  margin: 0 auto 0;
+  padding: 165px 85px 150px;
+}
+
+@media (max-width: 800px){
+  .page__people{
+    padding: 165px 55px 150px;
+  }
+}
+
+@media (max-width: 650px){
+  .page__people{
+    padding: 165px 35px 150px;
+  }
+}
+
+@media (max-width: 350px){
+  .page__people{
+    padding: 165px 20px 150px;
+  }
+}

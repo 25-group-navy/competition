@@ -2,5 +2,40 @@
   width: 420px;
   height: 420px;
   object-fit: cover;
-  margin: 100px;
+  margin: 0 auto;
+}
+
+@media (max-width: 1200px){
+  .promo__foto{
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media (max-width: 800px){
+  .promo__foto{
+    padding-top: 30px;
+    min-width: 100%;
+    height: calc(100vw - 110px);
+  }
+}
+
+@media (max-width: 650px){
+  .promo__foto{
+    height: calc(100vw - 70px);
+  }
+}
+
+@media (max-width: 450px){
+  .promo__foto{
+    width: calc(100vw - 70px);
+    height: calc(100vw - 70px);
+  }
+}
+
+@media (max-width: 350px){
+  .promo__foto{
+    width: calc(100vw - 40px);
+    height: calc(100vw - 40px);
+  }
 }

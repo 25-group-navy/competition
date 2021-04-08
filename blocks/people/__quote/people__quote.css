@@ -9,21 +9,3 @@
     margin: 15px 0;
   }
 }
-
-@media (max-width: 800px){
-  .people__quote{
-    
-  }
-}
-
-@media (max-width: 650px){
-  .people__quote{
-    
-  }
-}
-
-@media (max-width: 350px){
-  .people__quote{
-    
-  }
-}

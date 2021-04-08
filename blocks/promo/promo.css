@@ -5,27 +5,3 @@
   align-items: center;
   column-gap: 50px;
 }
-
-@media (max-width: 1200px){
-  .promo{
-    
-  }
-}
-
-@media (max-width: 800px){
-  .promo{
-    grid-template-columns: 1fr;
-  }
-}
-
-@media (max-width: 650px){
-  .promo{
-    
-  }
-}
-
-@media (max-width: 350px){
-  .promo{
-    
-  }
-}

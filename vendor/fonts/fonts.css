@@ -1,49 +1,4 @@
 @font-face {
-<<<<<<< HEAD
-  font-family: 'Open Sans';
-  font-style:  normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(./open-sans-v18-cyrillic-regular.woff2) format("woff2"),
-  url(./open-sans-v18-cyrillic-regular.woff) format("woff");
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style:  normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(./open-sans-v18-cyrillic-300r.woff2) format("woff2"),
-  url(./open-sans-v18-cyrillic-300.woff) format("woff");
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style:  normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(./open-sans-v18-cyrillic-600r.woff2) format("woff2"),
-  url(./open-sans-v18-cyrillic-600.woff) format("woff");
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style:  normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url(./open-sans-v18-cyrillic-700r.woff2) format("woff2"),
-  url(./open-sans-v18-cyrillic-700.woff) format("woff");
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  font-style:  normal;
-  font-weight: 800;
-  font-display: swap;
-  src: url(./open-sans-v18-cyrillic-800r.woff2) format("woff2"),
-  url(./open-sans-v18-cyrillic-800.woff) format("woff");
-}
-=======
     font-family: 'Roboto';
     font-style:  normal;
     font-weight: normal;
@@ -72,4 +27,3 @@
          url("./Roboto-Black.woff") format("woff"),
          url("./Roboto-Black.woff2") format("ttf");
   }
->>>>>>> fbe774028ebbc1da5097d3c2389146c46a22eef8

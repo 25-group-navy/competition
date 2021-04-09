@@ -4,20 +4,26 @@
   padding: 100px 85px 154px;
 }
 
+@media (max-width: 1200px){
+  .page__promo{
+    padding: 70px 55px 100px;
+  }
+}
+
 @media (max-width: 800px){
   .page__promo{
-    padding: 70px 55px 154px;
+    padding: 70px 55px 80px;
   }
 }
 
 @media (max-width: 650px){
   .page__promo{
-    padding: 70px 35px 154px;
+    padding: 70px 35px 70px;
   }
 }
 
 @media (max-width: 350px){
   .page__promo{
-    padding: 70px 20px 0;
+    padding: 70px 20px 50px;
   }
 }

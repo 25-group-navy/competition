@@ -17,7 +17,6 @@
     .place__title{
         font-size: 34px;
         margin: 0 auto;
-        text-align: center;
         width: calc(100vw - 25%);
         padding-top: 40px;
     }

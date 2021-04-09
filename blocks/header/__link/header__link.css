@@ -4,6 +4,12 @@
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.4px;
+  transition: linear 0.3s;
+}
+
+.header__link:hover{
+  color: #fecea9;
+  text-decoration:underline;
 }
 
 @media (max-width: 650px){

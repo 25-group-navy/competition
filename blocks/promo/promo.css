@@ -5,3 +5,10 @@
   align-items: center;
   column-gap: 50px;
 }
+
+
+@media (max-width: 800px){
+  .promo{
+    grid-template-columns: 1fr;
+  }
+}

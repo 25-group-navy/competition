@@ -1,12 +1,13 @@
 .place__paragraph{
     margin: 0;
     padding: 0;
-    width: 94%;
+    width: 86%;
     white-space: pre-line;
     font-style: normal;
     font-weight: normal;
-    line-height: 1.5;
-    font-size: 85%;
+    line-height: 1.6;
+    font-size: 80%;
+    word-spacing: 2px;
 }
 
 @media (max-width: 1279px){

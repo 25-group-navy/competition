@@ -1,4 +1,5 @@
 @font-face {
+<<<<<<< HEAD
   font-family: 'Open Sans';
   font-style:  normal;
   font-weight: 400;
@@ -42,3 +43,33 @@
   src: url(./open-sans-v18-cyrillic-800r.woff2) format("woff2"),
   url(./open-sans-v18-cyrillic-800.woff) format("woff");
 }
+=======
+    font-family: 'Roboto';
+    font-style:  normal;
+    font-weight: normal;
+    font-display: swap;
+    src: url("./Roboto-Regular.woff2") format("woff2"),
+         url("./Roboto-Regular.woff") format("woff"),
+         url("./Roboto-Regular.ttf") format("ttf");
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    font-style:  normal;
+    font-weight: bold;
+    font-display: swap;
+    src: url("./Roboto-Bold.woff2") format("woff2"),
+         url("./Roboto-Bold.woff") format("woff"),
+         url("./Roboto-Bold.ttf") format("ttf");
+  }
+  
+  @font-face {
+    font-family: 'Roboto';
+    font-style:  normal;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./Roboto-Black.woff2") format("woff2"),
+         url("./Roboto-Black.woff") format("woff"),
+         url("./Roboto-Black.woff2") format("ttf");
+  }
+>>>>>>> fbe774028ebbc1da5097d3c2389146c46a22eef8

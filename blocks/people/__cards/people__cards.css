@@ -31,5 +31,6 @@
 @media (max-width: 500px){
   .people__cards{
     grid-template-columns: repeat(1, 1fr);
+    margin-top: 60px;
   }
 }
